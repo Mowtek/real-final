@@ -1,0 +1,125 @@
+#profile {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.profileHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.backButton {
+  background-color: inherit;
+  color: white;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  border-radius: 50%;
+}
+
+.backButton:hover {
+  background-color: #1f1f1f;
+  color: #2babfb;
+}
+
+.backIcon {
+  font-size: 1.5rem;
+}
+
+.profileName {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.profileName > * {
+  height: 0rem;
+}
+
+.postNumber {
+  font-size: 12px;
+}
+
+.imagesAndName {
+  position: relative;
+  border-bottom: 1px solid #4f4f4f;
+}
+
+.backgroundProfile {
+  object-fit: cover;
+  width: 100%;
+  height: 25vh;
+  border: none;
+}
+
+.photoProfile {
+  object-fit: cover;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 3px solid black;
+  position: absolute;
+  left: 1rem;
+  top: 18vh;
+}
+
+.editProfile {
+  position: absolute;
+  right: 1rem;
+  top: 28vh;
+  width: 9rem;
+  height: 3rem;
+  border-radius: 20px;
+  background-color: inherit;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #4f4f4f;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.editProfile:hover {
+  background-color: #1f1f1f;
+}
+
+.nameBio {
+  margin: 5rem 2rem 2rem 2rem;
+}
+
+.nameBio > p {
+  font-size: 0.85rem;
+}
+
+.profileButtons {
+  display: flex;
+  width: 100%;
+}
+
+.chooseProfilePosts {
+  width: calc(100% / 4);
+  height: 3rem;
+  background-color: inherit;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.chooseProfilePosts:hover {
+  font-size: 1.25rem;
+  background-color: #1f1f1f;
+}
+
+.chooseProfilePostsFocus {
+  border-bottom: 2px solid #3b93da;
+}

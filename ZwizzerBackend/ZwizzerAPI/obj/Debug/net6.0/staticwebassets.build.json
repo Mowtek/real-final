@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "4xoImDjMdpY4i7udBzUYU3aNA9xkY/Eq26Oxj0k2EqM=",
+  "Source": "ZwizzerAPI",
+  "BasePath": "_content/ZwizzerAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ZwizzerAPI\\wwwroot",
+      "Source": "ZwizzerAPI",
+      "ContentRoot": "C:\\Users\\Mowte\\Desktop\\Final\\ZwizzerBackend\\ZwizzerAPI\\wwwroot\\",
+      "BasePath": "_content/ZwizzerAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Mowte\\Desktop\\Final\\ZwizzerBackend\\ZwizzerAPI\\wwwroot\\BackgroundImages\\default.jpg",
+      "SourceId": "ZwizzerAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mowte\\Desktop\\Final\\ZwizzerBackend\\ZwizzerAPI\\wwwroot\\",
+      "BasePath": "_content/ZwizzerAPI",
+      "RelativePath": "BackgroundImages/default.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BackgroundImages\\default.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Mowte\\Desktop\\Final\\ZwizzerBackend\\ZwizzerAPI\\wwwroot\\ProfileImages\\default.jpg",
+      "SourceId": "ZwizzerAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mowte\\Desktop\\Final\\ZwizzerBackend\\ZwizzerAPI\\wwwroot\\",
+      "BasePath": "_content/ZwizzerAPI",
+      "RelativePath": "ProfileImages/default.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProfileImages\\default.jpg"
+    }
+  ]
+}

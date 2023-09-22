@@ -1,0 +1,149 @@
+:root {
+  --LikeColor: white;
+  --CommentColor: white;
+  --RepostColor: white;
+  --backgroundComment: black;
+}
+
+.PostsArea {
+  display: flex;
+  flex-direction: column;
+}
+.postClass {
+  display: flex;
+  border-top: 1px solid rgb(84, 84, 84);
+  position: relative;
+}
+.postImage {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin: 1rem 1rem 0 1rem;
+}
+.postImgActual {
+  object-fit: cover;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.nameAndDate {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  align-items: center;
+  height: 2rem;
+  text-decoration: none;
+  color: white;
+  width: fit-content;
+}
+
+.postContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+  width: calc(100% - 6rem);
+}
+
+.postParagraph {
+  height: fit-content;
+  margin-top: 1.5rem;
+  margin-right: 2rem;
+}
+
+.postInteraction {
+  display: flex;
+  margin: 0rem 5rem 0 0rem;
+  justify-content: space-around;
+}
+
+.interaction {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.interaction > button {
+  background-color: inherit;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  color: inherit;
+}
+
+.like {
+  color: var(--LikeColor);
+}
+
+.like:hover {
+  --LikeColor: rgb(244, 101, 101);
+  --backgroundComment: rgba(233, 78, 78, 0.15);
+}
+
+.comment {
+  color: var(--CommentColor);
+}
+
+.comment:hover {
+  --CommentColor: rgb(81, 174, 250);
+  --backgroundComment: rgba(81, 174, 250, 0.15);
+}
+
+.repost {
+  color: var(--RepostColor);
+}
+
+.repost:hover {
+  --RepostColor: rgb(87, 233, 87);
+  --backgroundComment: rgba(87, 233, 87, 0.15);
+}
+
+.interaction > button > i {
+  border-radius: 50%;
+  background-color: var(--backgroundComment);
+  padding: 0.5rem;
+}
+
+.postNavLink {
+  text-decoration: none;
+  color: inherit;
+  font-weight: normal;
+  height: inherit;
+}
+
+.postsUserName:hover {
+  text-decoration: underline;
+}
+.postsCreatedTime {
+  font-weight: normal;
+  font-size: 0.8rem;
+  width: fit-content;
+}
+
+.innerCommentZweet {
+  border: 1px solid rgb(84, 84, 84);
+  padding: 1rem;
+}
+.innerCommentZweetLink {
+  color: inherit;
+  text-decoration: none;
+  width: 85%;
+}
+.innerCommentZweet {
+  display: flex;
+  flex-direction: row;
+}
+.commentImage {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+.nameAndTimeComment {
+  padding: 1rem;
+}

@@ -1,0 +1,43 @@
+.postPage {
+  display: flex;
+  flex-direction: column;
+}
+.postCommentsSection {
+  border-top: 1px solid rgb(84, 84, 84);
+  border-bottom: 1px solid rgb(84, 84, 84);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.postNewComment {
+  margin-top: 1rem;
+  display: flex;
+  align-items: flex-start;
+  height: 8rem;
+}
+.postNewComment > * {
+  margin-left: 1rem;
+}
+.newCommentInput {
+  height: 7rem;
+  width: 60%;
+  background-color: inherit;
+  color: white;
+  border: none;
+  font-size: 1.25rem;
+  resize: none;
+}
+
+.postDeleteButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  background-color: inherit;
+  color: red;
+  border: 2px solid red;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+C:\Users\Mowte\Desktop\Final\ZwizzerBackend\ZwizzerDAL\bin\Debug\net6.0\ZwizzerDAL.deps.json
+C:\Users\Mowte\Desktop\Final\ZwizzerBackend\ZwizzerDAL\bin\Debug\net6.0\ZwizzerDAL.runtimeconfig.json
+C:\Users\Mowte\Desktop\Final\ZwizzerBackend\ZwizzerDAL\bin\Debug\net6.0\ZwizzerDAL.dll
+C:\Users\Mowte\Desktop\Final\ZwizzerBackend\ZwizzerDAL\bin\Debug\net6.0\ZwizzerDAL.pdb
+C:\Users\Mowte\Desktop\Final\ZwizzerBackend\ZwizzerDAL\obj\Debug\net6.0\ZwizzerDAL.csproj.AssemblyReference.cache
+C:\Users\Mowte\Desktop\Final\ZwizzerBackend\ZwizzerDAL\obj\Debug\net6.0\ZwizzerDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mowte\Desktop\Final\ZwizzerBackend\ZwizzerDAL\obj\Debug\net6.0\ZwizzerDAL.AssemblyInfoInputs.cache
+C:\Users\Mowte\Desktop\Final\ZwizzerBackend\ZwizzerDAL\obj\Debug\net6.0\ZwizzerDAL.AssemblyInfo.cs
+C:\Users\Mowte\Desktop\Final\ZwizzerBackend\ZwizzerDAL\obj\Debug\net6.0\ZwizzerDAL.csproj.CoreCompileInputs.cache
+C:\Users\Mowte\Desktop\Final\ZwizzerBackend\ZwizzerDAL\obj\Debug\net6.0\ZwizzerDAL.dll
+C:\Users\Mowte\Desktop\Final\ZwizzerBackend\ZwizzerDAL\obj\Debug\net6.0\refint\ZwizzerDAL.dll
+C:\Users\Mowte\Desktop\Final\ZwizzerBackend\ZwizzerDAL\obj\Debug\net6.0\ZwizzerDAL.pdb
+C:\Users\Mowte\Desktop\Final\ZwizzerBackend\ZwizzerDAL\obj\Debug\net6.0\ZwizzerDAL.genruntimeconfig.cache
+C:\Users\Mowte\Desktop\Final\ZwizzerBackend\ZwizzerDAL\obj\Debug\net6.0\ref\ZwizzerDAL.dll

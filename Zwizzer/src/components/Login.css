@@ -1,0 +1,8 @@
+.loginPageHeader > * {
+  margin: 1rem;
+}
+.loginPageHeader {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(84, 84, 84);
+}

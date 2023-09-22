@@ -1,0 +1,20 @@
+{
+  "short_name": "Zwizzer",
+  "name": "Zwizzer - the Best Social Media!",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "bird.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

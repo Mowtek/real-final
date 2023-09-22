@@ -1,0 +1,15 @@
+#AdArea {
+  height: 100vh;
+  display: flex;
+  width: 32%;
+  align-items: center;
+  flex-direction: column;
+}
+#AdArea > * {
+  height: 0rem;
+}
+@media only screen and (max-width: 768px) {
+  #AdArea {
+    display: none;
+  }
+}

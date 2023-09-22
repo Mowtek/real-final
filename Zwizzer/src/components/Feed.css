@@ -1,0 +1,45 @@
+#FeedArea {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 45%;
+  border-right: 1px solid rgb(84, 84, 84);
+  border-left: 1px solid rgb(84, 84, 84);
+  position: relative;
+}
+
+.direction {
+  display: flex;
+  width: 100%;
+}
+
+.FeedNavigation {
+  display: none;
+  position: sticky;
+  bottom: 0;
+  height: 3rem;
+  width: 100%;
+  background-color: #3b93da;
+  justify-content: space-around;
+}
+.FeedNavigationLink {
+  height: 100%;
+  color: white;
+  font-size: 2rem;
+}
+
+.FeedNavigationButton {
+  background-color: inherit;
+  color: white;
+  border: none;
+  width: fit-content;
+}
+
+@media only screen and (max-width: 768px) {
+  #FeedArea {
+    width: 100%;
+  }
+  .FeedNavigation {
+    display: flex;
+  }
+}
